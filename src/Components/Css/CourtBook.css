@@ -1,0 +1,114 @@
+.single-court-img-box{
+    height: 70vh;
+    position: relative;
+}
+.single-court-img-box img{
+    width: 100%;
+    height: 100%;
+}
+.court-name{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0%;
+    left: 0%;
+    height: 18%;
+    color: white;
+    width: 100%;
+    padding: 3rem 3rem;
+    background: linear-gradient(rgb(92, 126, 5),rgb(109, 171, 109))
+}
+.court-name button{
+    padding-inline: 30px;
+    padding-block: 20px;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(202, 232, 120),rgb(74, 122, 74));
+    box-shadow: rgb(6, 6, 6);
+    
+}
+.court-name button:hover{
+    color: rgb(255, 251, 251);
+   
+}
+.rolling-booking{
+    display:flex;
+    flex-direction: row;
+    background: linear-gradient(rgb(96, 150, 66),rgb(203, 230, 203));
+    font-size: 1.5rem;
+    color: rgb(4, 77, 48)
+}
+.date-picker{
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.date-picker span{
+    padding: .3rem 1rem .3rem 1rem;
+    border: 1px rgb(25, 185, 10);
+    background-color: rgb(47, 161, 37);
+    border-radius: 5px;
+}
+.date-picker input, input:focus{
+    all: unset;
+    padding: .3rem 1rem .3rem 1rem;
+    border: 1px rgb(24, 27, 25);
+    border-radius: 5px;
+    background-color: rgb(202, 237, 218);
+}
+.slotname-container span{
+    padding:.4rem;
+    border: 1px rgb(11, 6, 3);
+    border-radius: 5px;
+    cursor: pointer;
+    background-color:  rgb(202, 237, 218);
+}
+
+.add-court-timing-modal{
+    width: 100%;
+    min-height: fit-content;
+}
+.add-court-timing-modal input{
+    all: unset;
+    padding: .3rem 1rem .3rem 1rem;
+    border: 1px rgb(15, 15, 15);
+    border-radius: 5px;
+    color: black;
+    background-color: rgb(197, 206, 196);
+}
+
+.add-court-timing-modal input :focus{
+    border-color: rgb(147, 147, 155);
+}
+.cus-dropdown{
+    position: relative;
+    padding: 5px;
+    border: 1px black;
+    width: 100%;
+    cursor: pointer;
+}
+.cus-dropdown :focus{
+    color: brown;
+}
+.cus-options{
+    position: absolute;
+    width: 50%LOP;;
+    top: 35px;
+    left: 0px;
+    min-height: 180px;
+    z-index: 4;
+    max-height: 200px;
+    background-color:rgb(197, 206, 196);
+    border: 1rem black;
+    overflow: auto;
+}
+.cus-options li{
+    list-style:none;
+    padding: 5px;
+    border-bottom: 1px sienna;
+
+}
+.cus-options li :last-child{
+border-bottom: none;
+}
